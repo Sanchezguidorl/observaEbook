@@ -16,7 +16,7 @@ export default function ObservaBook() {
         className="relative w-72 h-[420px] shadow-2xl rounded-2xl overflow-hidden border border-red-500/50"
       >
         <Image
-          src="/observa-cover.png" // agrega tu imagen en /public/observa-cover.png
+          src="/observa-cover.webp" // agrega tu imagen en /public/observa-cover.png
           alt="Portada del e-book Observa"
           fill
           className="object-cover"
