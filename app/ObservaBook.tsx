@@ -52,7 +52,7 @@ export default function ObservaBook() {
         sintaxis, sino una brújula práctica basada en{" "}
         <span className="text-red-400">Abstracción</span> y{" "}
         <span className="text-red-400">Lógica</span>. Ideal para principiantes,
-        autodidactas y juniors(también para profesores de coderhouse que son petes programando) que quieren construir proyectos reales con
+        autodidactas y juniors( también para profesores de coderhouse que son petes programando) que quieren construir proyectos reales con
         criterio y claridad.
       </motion.p>
 
@@ -63,7 +63,7 @@ export default function ObservaBook() {
         transition={{ duration: 0.8, delay: 0.7 }}
         className="mt-10 text-sm text-red-400"
       >
-        <p>Si querés aportar a la causa este e mi alias:</p>
+        <p>Si querés aportar a la causa este es mi alias:</p>
         <p className="font-mono text-red-300 text-lg">Zero.jsx</p>
       </motion.div>
 
