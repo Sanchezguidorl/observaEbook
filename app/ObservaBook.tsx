@@ -7,16 +7,6 @@ import { motion } from "framer-motion";
 export default function ObservaBook() {
   return (
     <section className="flex flex-col items-center justify-center text-center px-6 py-16 bg-gradient-to-b from-black via-neutral-950 to-black text-red-500">
-          {/* Alias para aportes */}
-      <motion.div
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ duration: 0.8, delay: 0.7 }}
-        className="mt-10 text-sm text-red-400"
-      >
-        <p>Si querés aportar a la causa este es mi alias:</p>
-        <p className="font-mono text-red-300 text-lg">Zero.jsx</p>
-      </motion.div>
       {/* Portada del e-book con animación */}
       <motion.div
         initial={{ opacity: 0, y: 40 }}
@@ -66,7 +56,16 @@ export default function ObservaBook() {
         criterio y claridad.
       </motion.p>
 
-  
+      {/* Alias para aportes */}
+      <motion.div
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ duration: 0.8, delay: 0.7 }}
+        className="mt-10 text-sm text-red-400"
+      >
+        <p>Si querés aportar a costear mis gastos mensuales en travestis este es mi alias:</p>
+        <p className="font-mono text-red-300 text-lg">Zero.jsx</p>
+      </motion.div>
 
     </section>
   );
