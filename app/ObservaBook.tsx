@@ -52,7 +52,7 @@ export default function ObservaBook() {
         sintaxis, sino una brújula práctica basada en{" "}
         <span className="text-red-400">Abstracción</span> y{" "}
         <span className="text-red-400">Lógica</span>. Ideal para principiantes,
-        autodidactas y juniors( también para profesores de coderhouse que son petes programando) que quieren construir proyectos reales con
+        autodidactas y juniors ( también para profesores de coderhouse que son petes programando) que quieren construir proyectos reales con
         criterio y claridad.
       </motion.p>
 
